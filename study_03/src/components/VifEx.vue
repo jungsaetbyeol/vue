@@ -17,7 +17,7 @@ const selectDate = ref("");
 </script>
 
 <template>
-  <div>
+  <div class="page">
     <!-- v-if v-show -->
     <h2>v-if v-show</h2>
     <button @click="isVisible = !isVisible">토글</button>
@@ -92,6 +92,9 @@ const selectDate = ref("");
 </template>
 
 <style scoped>
+.page{
+padding: 20px;
+}
 .info {
   background-color: thistle;
   padding: 20px;
